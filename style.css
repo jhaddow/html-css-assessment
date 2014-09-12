@@ -1,0 +1,52 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container{
+	width: 100%;
+}
+
+.topBar {
+	width: 100;
+	background-color: black;
+	color: gray;
+	text-align: left;
+
+}
+.main {
+	width: 90%;
+	margin: 20px auto;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.box {
+	width: 400px;
+	height: 200px;
+	display: inline-flex;
+	flex-direction: column;
+
+	border: 1px solid gray;
+}
+
+.boxTitle {
+	width: 100%;
+	background: gray;
+	text-align: left;
+}
+
+.buttonList {
+	width: 90%;
+	display: inline-flex;
+	flex-direction: column;
+	
+}
+.button {
+	display: inline-flex;
+	justify-content: space-between;
+}
+
